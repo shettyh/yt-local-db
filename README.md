@@ -1,4 +1,4 @@
-# YT Local
+# YT Local DB
 
 **Pick up where you left off. Keep your history local.**
 
@@ -6,7 +6,7 @@ A tiny, open-source Chrome extension that remembers YouTube videos and playback 
 
 Repository name: `yt-local-db`. No database library, framework, runtime dependencies, account, or server.
 
-![YT Local popup with example history](store/screenshot-light-1280x800.png)
+![YT Local DB popup with example history](store/screenshot-light-1280x800.png)
 
 ## What it does
 
@@ -24,7 +24,7 @@ Progress saves at most every five seconds during playback, and also on pause, se
 2. Open `chrome://extensions` in desktop Chrome.
 3. Enable **Developer mode**.
 4. Click **Load unpacked** and select the unzipped extension folder (or cloned `yt-local-db` folder) containing `manifest.json`.
-5. Pin **YT Local** to the toolbar and reload any already-open YouTube tabs.
+5. Pin **YT Local DB** to the toolbar and reload any already-open YouTube tabs.
 6. Keep YouTube watch history **paused** in your Google account settings. The extension does not change that setting.
 
 Watch a regular video at `www.youtube.com/watch`, then open the extension popup to resume it later. Resume opens a new tab using YouTube's timestamp URL. Opening a video elsewhere does **not** automatically seek to the saved position.

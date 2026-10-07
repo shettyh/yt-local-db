@@ -1,6 +1,6 @@
 # Privacy
 
-YT Local stores these fields for each watched video:
+YT Local DB stores these fields for each watched video:
 
 - YouTube video ID and title
 - Last playback position and video duration
@@ -8,7 +8,7 @@ YT Local stores these fields for each watched video:
 
 Data is stored in `chrome.storage.local` in the current browser profile and used only to provide the local history and resume feature. The extension does not use Chrome Sync, a server, analytics, Google account APIs, or remote images, fonts, or scripts. It makes no application network requests. Clicking Resume or a video title opens the normal YouTube website with that video's ID and playback timestamp in the URL.
 
-YT Local's use of user data complies with the Chrome Web Store User Data Policy, including its Limited Use requirements. Saved history is not sold or shared with the developer or third parties, is not used for advertising or credit decisions, and is not available for the developer to read.
+YT Local DB's use of user data complies with the Chrome Web Store User Data Policy, including its Limited Use requirements. Saved history is not sold or shared with the developer or third parties, is not used for advertising or credit decisions, and is not available for the developer to read.
 
 The extension requests only the `storage` API permission and content-script access to `https://www.youtube.com/*`. Access to the whole desktop YouTube site is needed because navigating from the homepage to a video often happens without a page reload. Only regular `/watch?v=…` pages are recorded. Incognito operation is disabled. No browser-wide history is accessed.
 

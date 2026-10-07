@@ -61,7 +61,7 @@ async function refresh() {
 function showError(error) {
   status.hidden = false;
   status.textContent = "Could not access local history. Try reopening the extension.";
-  console.error("YT Local:", error);
+  console.error("YT Local DB:", error);
 }
 
 clearButton.addEventListener("click", async () => {

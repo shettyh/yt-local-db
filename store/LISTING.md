@@ -6,8 +6,8 @@ These are prepared listing materials, not confirmation of a store publication. T
 
 Run `npm run package` to create:
 
-- `dist/yt-local-db-0.1.0.zip` — upload this as the extension package.
-- `dist/yt-local-db-store-assets-0.1.0.zip` — unpack this for listing images and this guide; do not upload it as the extension package.
+- `dist/yt-local-db-0.1.1.zip` — upload this as the extension package.
+- `dist/yt-local-db-store-assets-0.1.1.zip` — unpack this for listing images and this guide; do not upload it as the extension package.
 
 Listing images:
 
@@ -20,7 +20,7 @@ The screenshots use fictional example history, not the developer's personal view
 
 ## Store listing
 
-**Name:** YT Local
+**Name:** YT Local DB
 
 **Summary (from the manifest):**
 
@@ -35,7 +35,7 @@ Remember YouTube videos and playback progress locally, without enabling YouTube 
 ```text
 Remember where you stopped, without enabling YouTube watch history.
 
-YT Local saves your YouTube watch history and playback progress in this browser. Open the toolbar popup to find a recently watched video and resume from your saved position.
+YT Local DB saves your YouTube watch history and playback progress in this browser. Open the toolbar popup to find a recently watched video and resume from your saved position.
 
 Features
 • Local watch history, most recent first
@@ -47,7 +47,7 @@ Features
 
 No extension account, backend, analytics, or cloud sync. Open source under the MIT license.
 
-Important: keep YouTube's own watch history paused yourself. YT Local does not change your Google account settings, hide recommendations, or prevent YouTube from observing normal page and video requests.
+Important: keep YouTube's own watch history paused yourself. YT Local DB does not change your Google account settings, hide recommendations, or prevent YouTube from observing normal page and video requests.
 
 Desktop Chrome only. Regular YouTube watch-page videos are supported; Shorts, embeds, and live streams with unbounded duration are not. Opening a video outside the popup does not automatically seek to the saved position. Removing the extension deletes its saved data.
 
@@ -111,7 +111,7 @@ No extension account or credentials are required.
 1. In a normal desktop Chrome window, open a regular public YouTube video, for example https://www.youtube.com/watch?v=aqz-KE-bpKQ.
 2. Keep YouTube watch history paused if signed in; the extension does not change that setting.
 3. Play or seek the video to at least 30 seconds, then pause. Allow up to five seconds if YouTube is still loading its watch-page metadata.
-4. Open YT Local from the toolbar. Verify the video title, playback timestamp, and progress bar appear.
+4. Open YT Local DB from the toolbar. Verify the video title, playback timestamp, and progress bar appear.
 5. Click Resume. Verify a new YouTube tab opens with the saved timestamp in the URL.
 6. Delete the entry. Verify it disappears. Further playback of that video may record it again.
 7. Add another video and use Clear all. Verify the confirmation prompt and empty history state.
@@ -123,7 +123,7 @@ The extension does not automatically seek on unrelated YouTube visits and does n
 
 1. Sign in to the [Chrome Web Store developer dashboard](https://chrome.google.com/webstore/devconsole).
 2. If needed, register, accept Google's agreements, and pay the one-time registration fee yourself. Set your publisher name, verify the contact email, and complete any account/security checks required by the dashboard.
-3. Add a new item and upload `dist/yt-local-db-0.1.0.zip`.
+3. Add a new item and upload `dist/yt-local-db-0.1.1.zip`.
 4. Fill the listing, upload the icon, promotional tile, and screenshots, and paste the homepage/support/privacy URLs.
 5. Fill Privacy practices using the answers above; review them before certifying.
 6. Choose free, public distribution and your intended regions. Complete any account-specific declarations shown by Google.

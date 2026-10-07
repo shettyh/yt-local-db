@@ -50,7 +50,7 @@
 
   function reportError(error) {
     lastSavedVideo = null; // Allow the next playback event to retry.
-    console.warn("YT Local could not save playback progress:", error);
+    console.warn("YT Local DB could not save playback progress:", error);
   }
 
   for (const event of ["timeupdate", "pause", "seeked", "ended"]) {
