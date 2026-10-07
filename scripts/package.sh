@@ -12,7 +12,7 @@ zip -q -X "$extension" \
   manifest.json content.js popup.html popup.js popup.css LICENSE \
   icons/icon16.png icons/icon32.png icons/icon48.png icons/icon128.png
 zip -q -X "$assets" \
-  store/LISTING.md store/promo-440x280.png \
+  store/promo-440x280.png \
   store/screenshot-light-1280x800.png store/screenshot-dark-1280x800.png \
   icons/icon128.png
 

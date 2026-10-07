@@ -33,15 +33,7 @@ No build step or `npm install` is needed.
 
 ## Chrome Web Store
 
-Store submission materials are ready, but the extension is **not yet published in the Chrome Web Store**. See [the listing and submission checklist](store/LISTING.md).
-
-To build the extension upload ZIP and listing-assets bundle:
-
-```sh
-npm run package
-```
-
-The ZIPs are written to `dist/`. The extension package contains only runtime files and the license; tests, listing images, and development files are excluded. Packaging requires Node.js 20+, Bash, and the `zip` command.
+Submitted to the Chrome Web Store and awaiting review. The store link will be added once approved.
 
 ## Boundaries
 
@@ -64,6 +56,8 @@ Use Node.js 20 or later to run the tests:
 ```sh
 npm test
 ```
+
+Run `npm run package` to create the extension ZIP and store-image bundle in `dist/`. Packaging requires Bash and the `zip` command; development files are excluded from the extension ZIP.
 
 After editing, reload the extension at `chrome://extensions` and refresh the YouTube tab. Content scripts in already-open tabs are not replaced automatically.
 
