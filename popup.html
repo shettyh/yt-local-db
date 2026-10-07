@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YT Local</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h1>YT Local<span>.</span></h1>
+        <span class="local-badge">On device</span>
+      </div>
+      <p>Pick up where you left off.</p>
+    </header>
+    <main>
+      <div class="section-heading">
+        <h2>Your history <span id="count"></span></h2>
+        <button id="clear" class="text-button" disabled>Clear all</button>
+      </div>
+      <p id="status" role="status">Loading your history…</p>
+      <ol id="history" aria-label="Watched videos"></ol>
+    </main>
+    <footer>Only in this browser. No account. No sync.</footer>
+    <template id="video-template">
+      <li class="video">
+        <div class="video-heading">
+          <a class="title" target="_blank" rel="noreferrer"></a>
+          <button class="delete" type="button" title="Delete from local history">×</button>
+        </div>
+        <p class="details"></p>
+        <progress max="1" aria-label="Playback progress"></progress>
+        <a class="resume" target="_blank" rel="noreferrer"></a>
+      </li>
+    </template>
+  </body>
+</html>

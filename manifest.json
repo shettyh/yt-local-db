@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "YT Local",
+  "version": "0.1.0",
+  "description": "Remember YouTube videos and playback progress locally, without enabling YouTube watch history.",
+  "homepage_url": "https://github.com/shettyh/yt-local-db",
+  "permissions": ["storage"],
+  "incognito": "not_allowed",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "YT Local — continue watching",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
