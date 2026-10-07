@@ -76,4 +76,6 @@ Contributions are welcome. Please keep changes focused on local history and resu
 
 ## License
 
-[MIT](LICENSE).
+[Apache License 2.0](LICENSE). See [NOTICE](NOTICE) for attribution.
+
+Previously published releases (v0.1.0 and v0.1.1) retain their original MIT license.

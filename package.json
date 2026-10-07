@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "description": "Local-only YouTube watch history and playback progress.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "test": "node --test",
     "package": "npm test && bash scripts/package.sh"
