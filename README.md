@@ -47,7 +47,7 @@ Submitted to the Chrome Web Store and awaiting review. The store link will be ad
 - Storage is limited by Chrome's standard local-storage quota (10 MB in current Chrome). No automatic history eviction.
 - Uninstalling the extension removes its saved data. There is no backup/export feature in this first version.
 
-See [PRIVACY.md](PRIVACY.md) for the privacy boundary.
+See [PRIVACY.md](PRIVACY.md) for the privacy boundary and [SECURITY.md](SECURITY.md) for supported versions and private vulnerability reporting.
 
 ## Development
 
