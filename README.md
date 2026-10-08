@@ -18,7 +18,13 @@ Repository name: `yt-local-db`. No database library, framework, runtime dependen
 
 Progress saves at most every five seconds during playback, and also on pause, seek, completion, hiding the tab, and navigation away. Abruptly closing the browser can lose the last few seconds.
 
-## Install locally
+## Install from the Chrome Web Store
+
+[Install **YT Local DB** from the Chrome Web Store](https://chromewebstore.google.com/detail/yt-local-db/jiegggfomkhmfadgdpejppjonnbgepcd).
+
+After installing, pin **YT Local DB** to the toolbar and reload any already-open YouTube tabs. Keep YouTube watch history **paused** in your Google account settings; the extension does not change that setting.
+
+## Install locally (alternative)
 
 1. [Download the latest extension ZIP](https://github.com/shettyh/yt-local-db/releases/latest) and unzip it, or clone this repository.
 2. Open `chrome://extensions` in desktop Chrome.
@@ -30,10 +36,6 @@ Progress saves at most every five seconds during playback, and also on pause, se
 Watch a regular video at `www.youtube.com/watch`, then open the extension popup to resume it later. Resume opens a new tab using YouTube's timestamp URL. Opening a video elsewhere does **not** automatically seek to the saved position.
 
 No build step or `npm install` is needed.
-
-## Chrome Web Store
-
-Submitted to the Chrome Web Store and awaiting review. The store link will be added once approved.
 
 ## Boundaries
 
